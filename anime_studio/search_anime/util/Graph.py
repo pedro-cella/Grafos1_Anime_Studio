@@ -176,7 +176,7 @@ class Grafo:
 		else:
 			for index, node in enumerate(self.Nodes):
 				dictNodes.update({index: self.Nodes[node].Name})
-			self.printN2S()
+# 			self.printN2S()
 		for elo in self.Elos:
 			elosList.append((elo.parentNode.Name, elo.childNode.Name))
 		tmpGraph = nx.Graph()
